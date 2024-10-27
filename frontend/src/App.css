@@ -1,0 +1,70 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-image: url('https://img.freepik.com/free-photo/back-school-concept-with-copy-space_23-2148559673.jpg?t=st=1730018709~exp=1730022309~hmac=b336ca92c078d609d408e29a15539bf6a891754734ed72c3fd19308055a995d9&w=1060');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  padding: 15px;
+}
+
+form {
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 5px;
+}
+
+.submitbutton {
+  background-color: rgb(70, 207, 74);
+  color: white;
+  width: 50px;
+  border-radius: 3px;
+  border-width: 0px;
+}
+
+.deletebutton {
+  background-color: red;
+  color: white;
+  width: 80px;
+  border-radius: 3px;
+  border-width: 0px;
+}
+button {
+  padding: 8px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+  width: 95%;
+}
+
+.task-item.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 5px 0;
+}
+
+.task-item span {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.task-item.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
